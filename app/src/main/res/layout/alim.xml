@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a4"
+    android:id="@+id/lay"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adaugă"
+        android:id="@+id/add"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0.85"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:text="Venitul este de:"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Înapoi"
+        android:id="@+id/bac"
+        android:layout_gravity="right" />
+
+</LinearLayout>
